@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/kindpng_1944120.png" id="product">
+                    <h2>Bata Shoes</h2>
+
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size:</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                        
+
+                    </div>
+                    <div class="color1">
+                        <h3>Color:</h3>   
+                        <span class="color active"></span>
+                        <span class="color"></span>
+                        <span class="color"></span>
+                            
+                    </div>
+                    <a href="#">Buy Now</a>
+
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/kindpng_1944120.png" id="product1">
+                    <h2>Bata Shoes</h2>
+
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size:</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                        
+
+                    </div>
+                    <div class="color1">
+                        <h3>Color:</h3>   
+                        <span class="color0 active"></span>
+                        <span class="color0"></span>
+                        <span class="color0"></span>
+                            
+                    </div>
+                    <a href="#">Buy Now</a>
+
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/kindpng_1944120.png" id="product2">
+                    <h2>Bata Shoes</h2>
+
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size:</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                        
+
+                    </div>
+                    <div class="color1">
+                        <h3>Color:</h3>   
+                        <span class="color2 active"></span>
+                        <span class="color2"></span>
+                        <span class="color2"></span>
+                            
+                    </div>
+                    <a href="#">Buy Now</a>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let product = document.getElementById("product");
+        let color = document.getElementsByClassName("color");
+
+        color[0].onclick = function(){
+            product.src = "img/Nike-Adidas-Shoes-PNG.png";
+
+            for( col of color)
+            {
+                col.classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        color[1].onclick = function(){
+            product.src = "img/PngItem_5550642.png";
+
+            for( col of color)
+            {
+                col.classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        color[2].onclick = function(){
+            product.src = "img/kindpng_1944120.png";
+             
+            for( col of color)
+            {
+                col.classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+         
+    </script>
+<script>
+    let product1 = document.getElementById("product1");
+    let color0 = document.getElementsByClassName("color0");
+
+    color0[0].onclick = function(){
+        product1.src = "img/Nike-Adidas-Shoes-PNG.png";
+
+        for( col of color0)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    color0[1].onclick = function(){
+        product1.src = "img/PngItem_5550642.png";
+
+        for( col of color0)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    color0[2].onclick = function(){
+        product1.src = "img/kindpng_1944120.png";
+         
+        for( col of color0)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+
+     
+</script>
+<script>
+    let product2 = document.getElementById("product2");
+    let color2 = document.getElementsByClassName("color2");
+
+    color2[0].onclick = function(){
+        product2.src = "img/Nike-Adidas-Shoes-PNG.png";
+
+        for( col of color2)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    color2[1].onclick = function(){
+        product2.src = "img/PngItem_5550642.png";
+
+        for( col of color2)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    color2[2].onclick = function(){
+        product2.src = "img/kindpng_1944120.png";
+         
+        for( col of color2)
+        {
+            col.classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+
+     
+</script>
+</body>
+</html>
